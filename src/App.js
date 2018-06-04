@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import AddTodo from './components/AddTodo';
 import Counter from './components/Counter';
 import Decrement from './components/Decrement';
 import Increment from './components/Increment';
+import Todos from './components/Todos';
 import logo from './logo.svg';
 import './App.css';
 
@@ -19,6 +21,8 @@ class App extends Component {
         <Counter />
         <Decrement />
         <Increment />
+        <AddTodo />
+        <Todos />
       </div>
     );
   }
